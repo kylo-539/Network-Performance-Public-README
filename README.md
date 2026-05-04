@@ -46,11 +46,11 @@ Full implementation details are available upon request for professional or acade
 
 ```mermaid
 flowchart TD
-    A[OMNeT++ Simulation Outputs (.sca files)] --> B[Python Data Processing]
-    B --> C[Structured Data (CSV)]
-    C --> D[Metric Computation: Throughput, Delay, PLR]
-    D --> E[Visualisation (Plots)]
-    E --> F[Analysis & Insights]
+    A[OMNeT++ Simulation Outputs sca files] --> B[Python Data Processing]
+    B --> C[Structured Data CSV]
+    C --> D[Metric Computation Throughput Delay PLR]
+    D --> E[Visualisation Plots]
+    E --> F[Analysis and Insights]
 ```
 
 ---
@@ -139,11 +139,6 @@ Compares performance across modern wireless standards.
 - NS3-Fix/  
   Modified NS-3 files used during development  
 
-- CSV files  
-  Processed analysis outputs  
-
-- PNG files  
-  Generated plots and visualisations  
 
 ---
 
